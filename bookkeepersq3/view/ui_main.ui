@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bookkeeper</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: gray</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Georgia;
+
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(160, 32, 240, 255));</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="maximumSize">
+           <size>
+            <width>1000</width>
+            <height>1000</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,30);
+border-radius: 5px;</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_12">
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: none;
+border: none;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="maximumSize">
+                <size>
+                 <width>300</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: yellow;
+font-weigth bold;
+font-size: 15pt;
+backgroung-color: none;
+border: none;</string>
+               </property>
+               <property name="text">
+                <string>Сумма</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="maximumSize">
+                <size>
+                 <width>300</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: yellow;
+font-weigth bold;
+font-size: 15pt;
+backgroung-color: nonergb(170, 170, 255);
+border: none;</string>
+               </property>
+               <property name="text">
+                <string>Бюджет</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: pink;
+font-weigth bold;
+font-size: 15pt;
+backgroung-color: none;
+border: none;</string>
+               </property>
+               <property name="text">
+                <string>День</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="styleSheet">
+                <string notr="true">background-color: none;
+border: none;
+font-size: 18pt;
+color: white;</string>
+               </property>
+               <property name="text">
+                <string>705</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="styleSheet">
+                <string notr="true">background-color: none;
+border: none;
+font-size: 18pt;
+color: white;</string>
+               </property>
+               <property name="text">
+                <string>1000</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: pink;
+font-weigth bold;
+font-size: 15pt;
+backgroung-color: none;
+border: none;</string>
+               </property>
+               <property name="text">
+                <string>Неделя</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="styleSheet">
+                <string notr="true">background-color: none;
+border: none;
+font-size: 18pt;
+color: white;</string>
+               </property>
+               <property name="text">
+                <string>705</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="styleSheet">
+                <string notr="true">background-color: none;
+border: none;
+font-size: 18pt;
+color: white;</string>
+               </property>
+               <property name="text">
+                <string>1000</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: pink;
+font-weigth bold;
+font-size: 15pt;
+backgroung-color: none;
+border: none;</string>
+               </property>
+               <property name="text">
+                <string>Месяц</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_10">
+               <property name="styleSheet">
+                <string notr="true">background-color: none;
+border: none;
+font-size: 18pt;
+color: white;</string>
+               </property>
+               <property name="text">
+                <string>705</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_11">
+               <property name="styleSheet">
+                <string notr="true">background-color: none;
+border: none;
+font-size: 18pt;
+color: white;</string>
+               </property>
+               <property name="text">
+                <string>1000</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>300</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QPushButton" name="pushButton_4">
+               <property name="font">
+                <font>
+                 <family>Georgia</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width: 150px;
+height: 40px;
+}
+QPushButton:hover {
+color: white;
+background-color: rgba(255,255,255,40);
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255,255,255,70);
+}</string>
+               </property>
+               <property name="text">
+                <string>Добавить Операцию</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_5">
+               <property name="font">
+                <font>
+                 <family>Georgia</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width: 150px;
+height: 40px;
+}
+QPushButton:hover {
+color: white;
+background-color: rgba(255,255,255,40);
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255,255,255,70);
+}</string>
+               </property>
+               <property name="text">
+                <string>Изменить Операцию</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_6">
+               <property name="font">
+                <font>
+                 <family>Georgia</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width: 150px;
+height: 40px;
+}
+QPushButton:hover {
+color: white;
+background-color: rgba(255,255,255,40);
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255,255,255,70);
+}</string>
+               </property>
+               <property name="text">
+                <string>Удалить Операцию</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton">
+               <property name="font">
+                <font>
+                 <family>Georgia</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width: 150px;
+height: 40px;
+}
+QPushButton:hover {
+color: white;
+background-color: rgba(255,255,255,40);
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255,255,255,70);
+}</string>
+               </property>
+               <property name="text">
+                <string>Установить Бюджет</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_2">
+               <property name="font">
+                <font>
+                 <family>Georgia</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width: 150px;
+height: 40px;
+}
+QPushButton:hover {
+color: white;
+background-color: rgba(255,255,255,40);
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255,255,255,70);
+}</string>
+               </property>
+               <property name="text">
+                <string>Добавить Категорию</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_3">
+               <property name="font">
+                <font>
+                 <family>Georgia</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width: 150px;
+height: 40px;
+}
+QPushButton:hover {
+color: white;
+background-color: rgba(255,255,255,40);
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255,255,255,70);
+}</string>
+               </property>
+               <property name="text">
+                <string>Изменить Категорию</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_7">
+               <property name="font">
+                <font>
+                 <family>Georgia</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+color: white;
+	color: rgb(255, 255, 255);
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width: 150px;
+height: 40px;
+}
+QPushButton:hover {
+color: white;
+background-color: rgba(255,255,255,40);
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255,255,255,70);
+}</string>
+               </property>
+               <property name="text">
+                <string>Удалить Категорию</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QTableView" name="tableView">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>2000</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableView{
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+QTableView::section{
+background-color: rgba(53,53,53);
+color: white;
+border: none;
+heigth: 50px;
+font-size: 14pt;
+}
+
+QTableView::item{
+border-style: none;
+border-bottom: rgba(255,255,255,50);
+}
+
+QTableView::item:selected{
+border: none;
+color: rgba(255,255,255);
+background-color: rgba(255,255,255,50);
+}
+
+</string>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="showGrid">
+           <bool>false</bool>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>135</number>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="tableView_2">
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableView{
+background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+QTableView::section{
+background-color: rgba(53,53,53);
+color: white;
+border: none;
+heigth: 50px;
+font-size: 14pt;
+}
+
+QTableView::item{
+border-style: none;
+border-bottom: rgba(255,255,255,50);
+}
+
+QTableView::item:selected{
+border: none;
+color: rgba(255,255,255);
+background-color: rgba(255,255,255,50);
+}
+
+</string>
+          </property>
+          <property name="showGrid">
+           <bool>false</bool>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>135</number>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
