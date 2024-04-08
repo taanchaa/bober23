@@ -2,7 +2,7 @@
 name = "bookkeepersq3"
 version = "0.1.0"
 description = ""
-authors = ["игорь <leo.semenov1980@Gmail.com>"]
+authors = ["татьяна <tanchaprik@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

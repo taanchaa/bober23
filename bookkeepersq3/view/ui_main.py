@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_mainzOlIOi.ui'
+## Form generated from reading UI file 'ui_mainzNrZyc.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.6.3
 ##
@@ -398,7 +398,7 @@ class Ui_MainWindow(object):
 "\n"
 "QTableView::item:selected{\n"
 "border: none;\n"
-"color: rgba(255,255,255);\n"
+"color: white;\n"
 "background-color: rgba(255,255,255,50);\n"
 "}\n"
 "\n"
