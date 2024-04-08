@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_mainzNrZyc.ui'
+## Form generated from reading UI file 'ui_mainmkAbBA.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.6.3
 ##
@@ -30,7 +30,7 @@ class Ui_MainWindow(object):
         self.centralwidget.setEnabled(True)
         self.centralwidget.setStyleSheet(u"font-family: Georgia;\n"
 "\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(160, 32, 240, 255));")
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(50, 0, 0, 255), stop:1 rgba(160, 32, 240, 255));")
         self.verticalLayout_4 = QVBoxLayout(self.centralwidget)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.verticalLayout_2 = QVBoxLayout()
@@ -398,7 +398,7 @@ class Ui_MainWindow(object):
 "\n"
 "QTableView::item:selected{\n"
 "border: none;\n"
-"color: white;\n"
+"color: rgba(255,255,255);\n"
 "background-color: rgba(255,255,255,50);\n"
 "}\n"
 "\n"
